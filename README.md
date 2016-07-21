@@ -10,6 +10,13 @@ y llamandola por medio de la aplicacion(.py).
 Prueba2: Se convierte la interfaz de .ui a .py, con esto se debe modificar la forma de llamada desde la aplacion.
 Para la convercion se utilizo conversor de qt:
 
-#C:\Python27\Lib\site-packages\PyQt4>pyuic4.bat "MainWindow.ui" -o "design.py"
+C:\Python27\Lib\site-packages\PyQt4>pyuic4.bat "MainWindow.ui" -o "design.py"
 
 Mas informacion en el codigo fuente.
+
+
+PD: despues de ejecutar "tempconvUIPY.pyw" este genera un compilado de "designUIPY.py" llamado "designUIPY.pyc"
+
+py: modulo python que se ejecuta por consola
+pyw: modulo python que se ejecuta sin consola(oculta)
+pyc: modulo python compilado
